@@ -1,12 +1,14 @@
 import React from 'react';
-import {Route, IndexRoute} from 'react-router';
+import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import App from './app/containers/App';
 import Todo from './app/containers/Todo';
+import Hello from './app/containers/Hello';
 
 export default (
-  <Route path="/" component={App}>
-    <div className="routes-root">
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
       <IndexRoute component={Todo}/>
-    </div>
-  </Route>
+      <Route path="hello" component={Hello}/>
+    </Route>
+  </Router>
 );
