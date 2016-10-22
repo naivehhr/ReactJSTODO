@@ -8,6 +8,7 @@ class Hello extends Component {
     super()
     this.state = {
     }
+    console.log('hello constructor');
   }
   render() {
     return (

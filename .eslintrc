@@ -1,3 +1,10 @@
+# @Author: huhaoran <aran.hu>
+# @Date:   20-10-16
+# @Email:  huhaoran3@ucfgroup.com
+# @Last modified by:   aran.hu
+# @Last modified time: 22-10-16
+# @License: © 2016 NCF GROUP ALL RIGHTS RESERVED
+
 {
   "parser": "babel-eslint",
   "plugins": [
@@ -32,7 +39,14 @@
     "semi": 0,
     "babel/object-shorthand": 0,
     "react/jsx-indent": 0,
-    "jsx-quotes": 0
+    "jsx-quotes": 0,
+    "camelcase": 0,
+    "babel/object-curly-spacing": 0,
+    "react/prop-types": 0,
+    "react/jsx-space-before-closing": 0,
+    "no-multiple-empty-lines": 0,
+    "no-use-before-define": 0,
+    "prefer-const": 0
   },
   "extends": [
     "xo-react/space",
