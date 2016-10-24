@@ -1,3 +1,14 @@
+/**
+* @Author: huhaoran <aran.hu>
+* @Date:   19-10-16
+* @Email:  huhaoran3@ucfgroup.com
+* @Last modified by:   aran.hu
+* @Last modified time: 24-10-16
+* @License: © 2016 NCF GROUP ALL RIGHTS RESERVED
+*/
+
+
+
 import React from 'react';
 import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import App from './app/containers/App';
