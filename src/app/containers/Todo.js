@@ -1,3 +1,12 @@
+/**
+* @Author: huhaoran <aran.hu>
+* @Date:   19-10-16
+* @Email:  huhaoran3@ucfgroup.com
+* @Last modified by:   aran.hu
+* @Last modified time: 26-10-16
+* @License: © 2016 NCF GROUP ALL RIGHTS RESERVED
+*/
+
 import '../sass/Todo.scss';
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
@@ -27,6 +36,10 @@ class Todo extends Component {
   componentDidMount() {
     this.handleTest()
     // console.log(this.props.dispatch);
+  }
+
+  componentWillUnmount() {
+    console.log('我卸载啦');
   }
 
   async handleTest(event) {

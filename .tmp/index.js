@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "de63313e41bf6273a834"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7e99d76cec7216f91f3a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotMainModule = true; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -12405,13 +12405,26 @@ exports = module.exports = __webpack_require__(287)();
 
 
 // module
+exports.push([module.i, ".sub-button {\n  width: 100px;\n  height: 100px;\n  background-color: red;\n  font-size: 16px;\n  text-align: center;\n  border-radius: 15px; }\n  .sub-button P {\n    color: red; }\n  .sub-button #p {\n    color: green; }\n", ""]);
+
+// exports
+
+
+/***/ },
+/* 205 */
+/***/ function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(287)();
+// imports
+
+
+// module
 exports.push([module.i, "@charset \"UTF-8\";\nhtml,\nbody {\n  margin: 0;\n  padding: 0; }\n\nbutton {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  background: none;\n  font-size: 100%;\n  vertical-align: baseline;\n  font-family: inherit;\n  font-weight: inherit;\n  color: inherit;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\nbody {\n  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  line-height: 1.4em;\n  background: #f5f5f5;\n  color: #4d4d4d;\n  min-width: 230px;\n  max-width: 550px;\n  margin: 0 auto;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-weight: 300; }\n\n:focus {\n  outline: 0; }\n\n.hidden {\n  display: none; }\n\n.heifae {\n  background: #fff;\n  margin: 130px 0 40px 0;\n  position: relative;\n  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1); }\n\n.heifae input::-webkit-input-placeholder {\n  font-style: italic;\n  font-weight: 300;\n  color: #e6e6e6; }\n\n.heifae input::-moz-placeholder {\n  font-style: italic;\n  font-weight: 300;\n  color: #e6e6e6; }\n\n.heifae input::input-placeholder {\n  font-style: italic;\n  font-weight: 300;\n  color: #e6e6e6; }\n\n.heifae h1 {\n  position: absolute;\n  top: -155px;\n  width: 100%;\n  font-size: 100px;\n  font-weight: 100;\n  text-align: center;\n  color: rgba(175, 47, 47, 0.15);\n  -webkit-text-rendering: optimizeLegibility;\n  -moz-text-rendering: optimizeLegibility;\n  text-rendering: optimizeLegibility; }\n\n.new-todo,\n.edit {\n  position: relative;\n  margin: 0;\n  width: 100%;\n  font-size: 24px;\n  font-family: inherit;\n  font-weight: inherit;\n  line-height: 1.4em;\n  border: 0;\n  color: inherit;\n  padding: 6px;\n  border: 1px solid #999;\n  box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);\n  box-sizing: border-box;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\n.new-todo {\n  padding: 16px 16px 16px 60px;\n  border: none;\n  background: rgba(0, 0, 0, 0.003);\n  box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.03); }\n\n.main {\n  position: relative;\n  z-index: 2;\n  border-top: 1px solid #e6e6e6; }\n\nlabel[for='toggle-all'] {\n  display: none; }\n\n.toggle-all {\n  position: absolute;\n  top: -55px;\n  left: -12px;\n  width: 60px;\n  height: 34px;\n  text-align: center;\n  border: none;\n  /* Mobile Safari */ }\n\n.toggle-all:before {\n  content: '\\276F';\n  font-size: 22px;\n  color: #e6e6e6;\n  padding: 10px 27px 10px 27px; }\n\n.toggle-all:checked:before {\n  color: #737373; }\n\n.todo-list {\n  margin: 0;\n  padding: 0;\n  list-style: none; }\n\n.todo-list li {\n  position: relative;\n  font-size: 24px;\n  border-bottom: 1px solid #ededed; }\n\n.todo-list li:last-child {\n  border-bottom: none; }\n\n.todo-list li.editing {\n  border-bottom: none;\n  padding: 0; }\n\n.todo-list li.editing .edit {\n  display: block;\n  width: 506px;\n  padding: 12px 16px;\n  margin: 0 0 0 43px; }\n\n.todo-list li.editing .view {\n  display: none; }\n\n.todo-list li .toggle {\n  text-align: center;\n  width: 40px;\n  /* auto, since non-WebKit browsers doesn't support input styling */\n  height: auto;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  margin: auto 0;\n  border: none;\n  /* Mobile Safari */\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none; }\n\n.todo-list li .toggle:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#ededed\" stroke-width=\"3\"/></svg>'); }\n\n.todo-list li .toggle:checked:after {\n  content: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"-10 -18 100 135\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"none\" stroke=\"#bddad5\" stroke-width=\"3\"/><path fill=\"#5dc2af\" d=\"M72 25L42 71 27 56l-4 4 20 20 34-52z\"/></svg>'); }\n\n.todo-list li label {\n  word-break: break-all;\n  padding: 15px 60px 15px 15px;\n  margin-left: 45px;\n  display: block;\n  line-height: 1.2;\n  -webkit-transition: color 0.4s;\n  transition: color 0.4s; }\n\n.todo-list li.completed label {\n  color: #d9d9d9;\n  text-decoration: line-through; }\n\n.todo-list li .destroy {\n  display: none;\n  position: absolute;\n  top: 0;\n  right: 10px;\n  bottom: 0;\n  width: 40px;\n  height: 40px;\n  margin: auto 0;\n  font-size: 30px;\n  color: #cc9a9a;\n  margin-bottom: 11px;\n  -webkit-transition: color 0.2s ease-out;\n  transition: color 0.2s ease-out; }\n\n.todo-list li .destroy:hover {\n  color: #af5b5e; }\n\n.todo-list li .destroy:after {\n  content: '\\D7'; }\n\n.todo-list li:hover .destroy {\n  display: block; }\n\n.todo-list li .edit {\n  display: none; }\n\n.todo-list li.editing:last-child {\n  margin-bottom: -1px; }\n\n.footer {\n  color: #777;\n  padding: 10px 15px;\n  height: 20px;\n  text-align: center;\n  border-top: 1px solid #e6e6e6; }\n\n.footer:before {\n  content: '';\n  position: absolute;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  height: 50px;\n  overflow: hidden;\n  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2); }\n\n.todo-count {\n  float: left;\n  text-align: left; }\n\n.todo-count strong {\n  font-weight: 300; }\n\n.filters {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n  position: absolute;\n  right: 0;\n  left: 0; }\n\n.filters li {\n  display: inline; }\n\n.filters li a {\n  color: inherit;\n  margin: 3px;\n  padding: 3px 7px;\n  text-decoration: none;\n  border: 1px solid transparent;\n  border-radius: 3px; }\n\n.filters li a:hover {\n  border-color: rgba(175, 47, 47, 0.1); }\n\n.filters li a.selected {\n  border-color: rgba(175, 47, 47, 0.2); }\n\n.clear-completed,\nhtml .clear-completed:active {\n  float: right;\n  position: relative;\n  line-height: 20px;\n  text-decoration: none;\n  cursor: pointer; }\n\n.clear-completed:hover {\n  text-decoration: underline; }\n\n.info {\n  margin: 65px auto 0;\n  color: #bfbfbf;\n  font-size: 10px;\n  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);\n  text-align: center; }\n\n.info p {\n  line-height: 1; }\n\n.info a {\n  color: inherit;\n  text-decoration: none;\n  font-weight: 400; }\n\n.info a:hover {\n  text-decoration: underline; }\n\n/*\n\tHack to remove background from Mobile Safari.\n\tCan't use it globally since it destroys checkboxes in Firefox\n*/\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  .toggle-all,\n  .todo-list li .toggle {\n    background: none; }\n  .todo-list li .toggle {\n    height: 40px; }\n  .toggle-all {\n    -webkit-transform: rotate(90deg);\n    transform: rotate(90deg);\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    appearance: none; } }\n\n@media (max-width: 430px) {\n  .footer {\n    height: 50px; }\n  .filters {\n    bottom: 10px; } }\n", ""]);
 
 // exports
 
 
 /***/ },
-/* 205 */,
 /* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -44394,7 +44407,7 @@ var cov_m8ncpgoyh = function () {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(873);
+__webpack_require__(858);
 
 var _react = __webpack_require__(0);
 
@@ -47547,7 +47560,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @Date:   22-10-16
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @Email:  huhaoran3@ucfgroup.com
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @Last modified by:   aran.hu
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @Last modified time: 24-10-16
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @Last modified time: 27-10-16
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @License: © 2016 NCF GROUP ALL RIGHTS RESERVED
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
 
@@ -47941,7 +47954,7 @@ exports.default = (0, _reactRedux.connect)(mapStateToProps)(Hello);
 
 var cov_1gmokdbunk = function () {
   var path = '/Users/admin/Desktop/ReactJSTODO/src/app/containers/Todo.js',
-      hash = '0495927069c42a27fca1b4d7d9ea2ae2bd743178',
+      hash = '4a7c676096ded428a450f5192c1d10b38af69247',
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
@@ -47949,251 +47962,261 @@ var cov_1gmokdbunk = function () {
     statementMap: {
       '0': {
         start: {
-          line: 19,
+          line: 28,
           column: 4
         },
         end: {
-          line: 19,
+          line: 28,
           column: 12
         }
       },
       '1': {
         start: {
-          line: 20,
+          line: 29,
           column: 4
         },
         end: {
-          line: 23,
+          line: 32,
           column: 6
         }
       },
       '2': {
         start: {
-          line: 24,
+          line: 33,
           column: 4
         },
         end: {
-          line: 24,
+          line: 33,
           column: 48
         }
       },
       '3': {
         start: {
-          line: 28,
+          line: 37,
           column: 4
         },
         end: {
-          line: 28,
+          line: 37,
           column: 21
         }
       },
       '4': {
         start: {
-          line: 34,
+          line: 42,
           column: 4
         },
         end: {
-          line: 43,
-          column: 5
+          line: 42,
+          column: 24
         }
       },
       '5': {
-        start: {
-          line: 35,
-          column: 55
-        },
-        end: {
-          line: 35,
-          column: 143
-        }
-      },
-      '6': {
-        start: {
-          line: 36,
-          column: 6
-        },
-        end: {
-          line: 38,
-          column: 8
-        }
-      },
-      '7': {
-        start: {
-          line: 40,
-          column: 6
-        },
-        end: {
-          line: 40,
-          column: 21
-        }
-      },
-      '8': {
         start: {
           line: 47,
           column: 4
         },
         end: {
-          line: 61,
-          column: 7
+          line: 56,
+          column: 5
         }
       },
-      '9': {
+      '6': {
         start: {
           line: 48,
-          column: 19
+          column: 55
         },
         end: {
-          line: 52,
-          column: 7
+          line: 48,
+          column: 143
         }
       },
-      '10': {
+      '7': {
+        start: {
+          line: 49,
+          column: 6
+        },
+        end: {
+          line: 51,
+          column: 8
+        }
+      },
+      '8': {
         start: {
           line: 53,
           column: 6
         },
         end: {
+          line: 53,
+          column: 21
+        }
+      },
+      '9': {
+        start: {
           line: 60,
-          column: 8
+          column: 4
+        },
+        end: {
+          line: 74,
+          column: 7
+        }
+      },
+      '10': {
+        start: {
+          line: 61,
+          column: 19
+        },
+        end: {
+          line: 65,
+          column: 7
         }
       },
       '11': {
         start: {
-          line: 54,
-          column: 19
+          line: 66,
+          column: 6
         },
         end: {
-          line: 54,
-          column: 29
+          line: 73,
+          column: 8
         }
       },
       '12': {
         start: {
-          line: 56,
-          column: 8
+          line: 67,
+          column: 19
         },
         end: {
-          line: 56,
-          column: 21
+          line: 67,
+          column: 29
         }
       },
       '13': {
         start: {
-          line: 59,
+          line: 69,
           column: 8
         },
         end: {
-          line: 59,
-          column: 17
+          line: 69,
+          column: 21
         }
       },
       '14': {
         start: {
-          line: 65,
-          column: 4
+          line: 72,
+          column: 8
         },
         end: {
-          line: 65,
-          column: 42
+          line: 72,
+          column: 17
         }
       },
       '15': {
         start: {
-          line: 74,
-          column: 23
+          line: 78,
+          column: 4
         },
         end: {
-          line: 74,
-          column: 33
+          line: 78,
+          column: 42
         }
       },
       '16': {
         start: {
-          line: 76,
-          column: 6
+          line: 87,
+          column: 23
         },
         end: {
-          line: 76,
-          column: 26
+          line: 87,
+          column: 33
         }
       },
       '17': {
         start: {
-          line: 79,
+          line: 89,
           column: 6
         },
         end: {
-          line: 83,
-          column: 12
+          line: 89,
+          column: 26
         }
       },
       '18': {
         start: {
-          line: 86,
-          column: 4
-        },
-        end: {
-          line: 96,
-          column: 5
-        }
-      },
-      '19': {
-        start: {
-          line: 87,
+          line: 92,
           column: 6
         },
         end: {
-          line: 95,
-          column: 8
+          line: 96,
+          column: 12
         }
       },
-      '20': {
-        start: {
-          line: 88,
-          column: 8
-        },
-        end: {
-          line: 94,
-          column: 9
-        }
-      },
-      '21': {
-        start: {
-          line: 98,
-          column: 26
-        },
-        end: {
-          line: 98,
-          column: 36
-        }
-      },
-      '22': {
+      '19': {
         start: {
           line: 99,
           column: 4
         },
         end: {
-          line: 128,
+          line: 109,
+          column: 5
+        }
+      },
+      '20': {
+        start: {
+          line: 100,
           column: 6
+        },
+        end: {
+          line: 108,
+          column: 8
+        }
+      },
+      '21': {
+        start: {
+          line: 101,
+          column: 8
+        },
+        end: {
+          line: 107,
+          column: 9
+        }
+      },
+      '22': {
+        start: {
+          line: 111,
+          column: 26
+        },
+        end: {
+          line: 111,
+          column: 36
         }
       },
       '23': {
         start: {
-          line: 133,
-          column: 2
+          line: 112,
+          column: 4
         },
         end: {
-          line: 136,
-          column: 4
+          line: 141,
+          column: 6
         }
       },
       '24': {
         start: {
-          line: 139,
+          line: 146,
+          column: 2
+        },
+        end: {
+          line: 149,
+          column: 4
+        }
+      },
+      '25': {
+        start: {
+          line: 152,
           column: 0
         },
         end: {
-          line: 139,
+          line: 152,
           column: 48
         }
       }
@@ -48203,21 +48226,21 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_0)',
         decl: {
           start: {
-            line: 18,
+            line: 27,
             column: 2
           },
           end: {
-            line: 18,
+            line: 27,
             column: 3
           }
         },
         loc: {
           start: {
-            line: 18,
+            line: 27,
             column: 16
           },
           end: {
-            line: 25,
+            line: 34,
             column: 3
           }
         }
@@ -48226,21 +48249,21 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_1)',
         decl: {
           start: {
-            line: 27,
+            line: 36,
             column: 2
           },
           end: {
-            line: 27,
+            line: 36,
             column: 3
           }
         },
         loc: {
           start: {
-            line: 27,
+            line: 36,
             column: 22
           },
           end: {
-            line: 30,
+            line: 39,
             column: 3
           }
         }
@@ -48249,21 +48272,21 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_2)',
         decl: {
           start: {
-            line: 32,
+            line: 41,
             column: 2
           },
           end: {
-            line: 32,
+            line: 41,
             column: 3
           }
         },
         loc: {
           start: {
-            line: 32,
-            column: 26
+            line: 41,
+            column: 25
           },
           end: {
-            line: 44,
+            line: 43,
             column: 3
           }
         }
@@ -48272,21 +48295,21 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_3)',
         decl: {
           start: {
-            line: 46,
+            line: 45,
             column: 2
           },
           end: {
-            line: 46,
+            line: 45,
             column: 3
           }
         },
         loc: {
           start: {
-            line: 46,
-            column: 15
+            line: 45,
+            column: 26
           },
           end: {
-            line: 62,
+            line: 57,
             column: 3
           }
         }
@@ -48295,22 +48318,22 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_4)',
         decl: {
           start: {
-            line: 47,
-            column: 23
+            line: 59,
+            column: 2
           },
           end: {
-            line: 47,
-            column: 24
+            line: 59,
+            column: 3
           }
         },
         loc: {
           start: {
-            line: 47,
-            column: 44
+            line: 59,
+            column: 15
           },
           end: {
-            line: 61,
-            column: 5
+            line: 75,
+            column: 3
           }
         }
       },
@@ -48318,22 +48341,22 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_5)',
         decl: {
           start: {
-            line: 54,
-            column: 12
+            line: 60,
+            column: 23
           },
           end: {
-            line: 54,
-            column: 13
+            line: 60,
+            column: 24
           }
         },
         loc: {
           start: {
-            line: 54,
-            column: 19
+            line: 60,
+            column: 44
           },
           end: {
-            line: 54,
-            column: 29
+            line: 74,
+            column: 5
           }
         }
       },
@@ -48341,22 +48364,22 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_6)',
         decl: {
           start: {
-            line: 55,
+            line: 67,
             column: 12
           },
           end: {
-            line: 55,
+            line: 67,
             column: 13
           }
         },
         loc: {
           start: {
-            line: 55,
-            column: 20
+            line: 67,
+            column: 19
           },
           end: {
-            line: 57,
-            column: 7
+            line: 67,
+            column: 29
           }
         }
       },
@@ -48364,21 +48387,21 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_7)',
         decl: {
           start: {
-            line: 58,
-            column: 13
+            line: 68,
+            column: 12
           },
           end: {
-            line: 58,
-            column: 14
+            line: 68,
+            column: 13
           }
         },
         loc: {
           start: {
-            line: 58,
-            column: 18
+            line: 68,
+            column: 20
           },
           end: {
-            line: 60,
+            line: 70,
             column: 7
           }
         }
@@ -48387,22 +48410,22 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_8)',
         decl: {
           start: {
-            line: 64,
-            column: 2
+            line: 71,
+            column: 13
           },
           end: {
-            line: 64,
-            column: 3
+            line: 71,
+            column: 14
           }
         },
         loc: {
           start: {
-            line: 64,
-            column: 10
+            line: 71,
+            column: 18
           },
           end: {
-            line: 66,
-            column: 3
+            line: 73,
+            column: 7
           }
         }
       },
@@ -48410,21 +48433,21 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_9)',
         decl: {
           start: {
-            line: 73,
+            line: 77,
             column: 2
           },
           end: {
-            line: 73,
+            line: 77,
             column: 3
           }
         },
         loc: {
           start: {
-            line: 73,
-            column: 11
+            line: 77,
+            column: 10
           },
           end: {
-            line: 129,
+            line: 79,
             column: 3
           }
         }
@@ -48433,44 +48456,67 @@ var cov_1gmokdbunk = function () {
         name: '(anonymous_10)',
         decl: {
           start: {
-            line: 87,
+            line: 86,
+            column: 2
+          },
+          end: {
+            line: 86,
+            column: 3
+          }
+        },
+        loc: {
+          start: {
+            line: 86,
+            column: 11
+          },
+          end: {
+            line: 142,
+            column: 3
+          }
+        }
+      },
+      '11': {
+        name: '(anonymous_11)',
+        decl: {
+          start: {
+            line: 100,
             column: 35
           },
           end: {
-            line: 87,
+            line: 100,
             column: 36
           }
         },
         loc: {
           start: {
-            line: 87,
+            line: 100,
             column: 52
           },
           end: {
-            line: 95,
+            line: 108,
             column: 7
           }
         }
       },
-      '11': {
+      '12': {
         name: 'mapStateToProps',
         decl: {
           start: {
-            line: 132,
+            line: 145,
             column: 9
           },
           end: {
-            line: 132,
+            line: 145,
             column: 24
           }
         },
         loc: {
           start: {
-            line: 132,
+            line: 145,
             column: 32
           },
           end: {
-            line: 137,
+            line: 150,
             column: 1
           }
         }
@@ -48480,31 +48526,31 @@ var cov_1gmokdbunk = function () {
       '0': {
         loc: {
           start: {
-            line: 86,
+            line: 99,
             column: 4
           },
           end: {
-            line: 96,
+            line: 109,
             column: 5
           }
         },
         type: 'if',
         locations: [{
           start: {
-            line: 86,
+            line: 99,
             column: 4
           },
           end: {
-            line: 96,
+            line: 109,
             column: 5
           }
         }, {
           start: {
-            line: 86,
+            line: 99,
             column: 4
           },
           end: {
-            line: 96,
+            line: 109,
             column: 5
           }
         }]
@@ -48512,31 +48558,31 @@ var cov_1gmokdbunk = function () {
       '1': {
         loc: {
           start: {
-            line: 104,
+            line: 117,
             column: 17
           },
           end: {
-            line: 104,
+            line: 117,
             column: 45
           }
         },
         type: 'cond-expr',
         locations: [{
           start: {
-            line: 104,
+            line: 117,
             column: 32
           },
           end: {
-            line: 104,
+            line: 117,
             column: 37
           }
         }, {
           start: {
-            line: 104,
+            line: 117,
             column: 40
           },
           end: {
-            line: 104,
+            line: 117,
             column: 45
           }
         }]
@@ -48544,31 +48590,31 @@ var cov_1gmokdbunk = function () {
       '2': {
         loc: {
           start: {
-            line: 112,
+            line: 125,
             column: 10
           },
           end: {
-            line: 120,
+            line: 133,
             column: 18
           }
         },
         type: 'cond-expr',
         locations: [{
           start: {
-            line: 113,
+            line: 126,
             column: 12
           },
           end: {
-            line: 117,
+            line: 130,
             column: 18
           }
         }, {
           start: {
-            line: 118,
+            line: 131,
             column: 12
           },
           end: {
-            line: 120,
+            line: 133,
             column: 18
           }
         }]
@@ -48599,7 +48645,8 @@ var cov_1gmokdbunk = function () {
       '21': 0,
       '22': 0,
       '23': 0,
-      '24': 0
+      '24': 0,
+      '25': 0
     },
     f: {
       '0': 0,
@@ -48613,7 +48660,8 @@ var cov_1gmokdbunk = function () {
       '8': 0,
       '9': 0,
       '10': 0,
-      '11': 0
+      '11': 0,
+      '12': 0
     },
     b: {
       '0': [0, 0],
@@ -48633,7 +48681,7 @@ var cov_1gmokdbunk = function () {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(858);
+__webpack_require__(859);
 
 var _react = __webpack_require__(0);
 
@@ -48673,7 +48721,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @Author: huhaoran <aran.hu>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @Date:   19-10-16
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @Email:  huhaoran3@ucfgroup.com
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @Last modified by:   aran.hu
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @Last modified time: 26-10-16
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @License: © 2016 NCF GROUP ALL RIGHTS RESERVED
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
 
 var Todo = function (_Component) {
   _inherits(Todo, _Component);
@@ -48707,6 +48762,14 @@ var Todo = function (_Component) {
       // console.log(this.props.dispatch);
     }
   }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      ++cov_1gmokdbunk.f[2];
+      ++cov_1gmokdbunk.s[4];
+
+      console.log('我卸载啦');
+    }
+  }, {
     key: 'handleTest',
     value: function () {
       var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(event) {
@@ -48716,10 +48779,10 @@ var Todo = function (_Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                ++cov_1gmokdbunk.f[2];
-                ++cov_1gmokdbunk.s[4];
-                _context.prev = 2;
+                ++cov_1gmokdbunk.f[3];
                 ++cov_1gmokdbunk.s[5];
+                _context.prev = 2;
+                ++cov_1gmokdbunk.s[6];
                 _context.next = 6;
                 return this.httpGet('https://api.github.com/search/repositories?q=javascript&sort=stars');
 
@@ -48728,7 +48791,7 @@ var Todo = function (_Component) {
                 incomplete_results = _ref2.incomplete_results;
                 items = _ref2.items;
                 total_count = _ref2.total_count;
-                ++cov_1gmokdbunk.s[6];
+                ++cov_1gmokdbunk.s[7];
 
                 this.setState({
                   dataList: items
@@ -48739,7 +48802,7 @@ var Todo = function (_Component) {
               case 14:
                 _context.prev = 14;
                 _context.t0 = _context['catch'](2);
-                ++cov_1gmokdbunk.s[7];
+                ++cov_1gmokdbunk.s[8];
 
                 console.log(_context.t0);
 
@@ -48764,30 +48827,30 @@ var Todo = function (_Component) {
   }, {
     key: 'httpGet',
     value: function httpGet(url) {
-      ++cov_1gmokdbunk.f[3];
-      ++cov_1gmokdbunk.s[8];
+      ++cov_1gmokdbunk.f[4];
+      ++cov_1gmokdbunk.s[9];
 
       return new Promise(function (resolve, reject) {
-        ++cov_1gmokdbunk.f[4];
+        ++cov_1gmokdbunk.f[5];
 
-        var meta = (++cov_1gmokdbunk.s[9], {
+        var meta = (++cov_1gmokdbunk.s[10], {
           headers: {
             method: "GET"
           }
         });
-        ++cov_1gmokdbunk.s[10];
+        ++cov_1gmokdbunk.s[11];
         fetch(url).then(function (res) {
-          ++cov_1gmokdbunk.f[5];
-          ++cov_1gmokdbunk.s[11];
-          return res.json();
-        }).then(function (data) {
           ++cov_1gmokdbunk.f[6];
           ++cov_1gmokdbunk.s[12];
+          return res.json();
+        }).then(function (data) {
+          ++cov_1gmokdbunk.f[7];
+          ++cov_1gmokdbunk.s[13];
 
           resolve(data);
         }).catch(function (e) {
-          ++cov_1gmokdbunk.f[7];
-          ++cov_1gmokdbunk.s[13];
+          ++cov_1gmokdbunk.f[8];
+          ++cov_1gmokdbunk.s[14];
 
           reject(e);
         });
@@ -48796,8 +48859,8 @@ var Todo = function (_Component) {
   }, {
     key: 'login',
     value: function login() {
-      ++cov_1gmokdbunk.f[8];
-      ++cov_1gmokdbunk.s[14];
+      ++cov_1gmokdbunk.f[9];
+      ++cov_1gmokdbunk.s[15];
 
       this.props.dispatch(Actions.doLogin());
     }
@@ -48811,18 +48874,18 @@ var Todo = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      ++cov_1gmokdbunk.f[9];
+      ++cov_1gmokdbunk.f[10];
 
-      var _ref3 = (++cov_1gmokdbunk.s[15], this.state);
+      var _ref3 = (++cov_1gmokdbunk.s[16], this.state);
 
       var dataList = _ref3.dataList;
 
-      var title = (++cov_1gmokdbunk.s[16], _react2.default.createElement(
+      var title = (++cov_1gmokdbunk.s[17], _react2.default.createElement(
         'h3',
         null,
         'Panel title'
       ));
-      var pInstance = (++cov_1gmokdbunk.s[17], _react2.default.createElement(
+      var pInstance = (++cov_1gmokdbunk.s[18], _react2.default.createElement(
         'div',
         null,
         _react2.default.createElement(
@@ -48832,14 +48895,14 @@ var Todo = function (_Component) {
         )
       ));
       var tableInstance = void 0;
-      ++cov_1gmokdbunk.s[18];
+      ++cov_1gmokdbunk.s[19];
       if (dataList) {
         ++cov_1gmokdbunk.b[0][0];
-        ++cov_1gmokdbunk.s[19];
+        ++cov_1gmokdbunk.s[20];
 
         tableInstance = dataList.map(function (item, index) {
-          ++cov_1gmokdbunk.f[10];
-          ++cov_1gmokdbunk.s[20];
+          ++cov_1gmokdbunk.f[11];
+          ++cov_1gmokdbunk.s[21];
 
           return _react2.default.createElement(
             'tr',
@@ -48865,11 +48928,11 @@ var Todo = function (_Component) {
         ++cov_1gmokdbunk.b[0][1];
       }
 
-      var _ref4 = (++cov_1gmokdbunk.s[21], this.props);
+      var _ref4 = (++cov_1gmokdbunk.s[22], this.props);
 
       var todos = _ref4.todos;
       var user = _ref4.user;
-      ++cov_1gmokdbunk.s[22];
+      ++cov_1gmokdbunk.s[23];
 
       return _react2.default.createElement(
         'div',
@@ -48942,8 +49005,8 @@ Todo.propTypes = {
 
 
 function mapStateToProps(state) {
-  ++cov_1gmokdbunk.f[11];
-  ++cov_1gmokdbunk.s[23];
+  ++cov_1gmokdbunk.f[12];
+  ++cov_1gmokdbunk.s[24];
 
   return {
     todos: state.todos,
@@ -48951,7 +49014,7 @@ function mapStateToProps(state) {
   };
 }
 
-++cov_1gmokdbunk.s[24];
+++cov_1gmokdbunk.s[25];
 module.exports = (0, _reactRedux.connect)(mapStateToProps)(Todo);
 
 /* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(24); if (makeExportsHot(module, __webpack_require__(0))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Todo.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
@@ -50158,7 +50221,7 @@ var cov_p5jksx364 = function () {
      * @Date:   19-10-16
      * @Email:  huhaoran3@ucfgroup.com
      * @Last modified by:   aran.hu
-     * @Last modified time: 24-10-16
+     * @Last modified time: 26-10-16
      * @License: © 2016 NCF GROUP ALL RIGHTS RESERVED
      */
 
@@ -50192,7 +50255,7 @@ exports.default = _react2.default.createElement(
   _react2.default.createElement(
     _reactRouter.Route,
     { path: '/', component: _App2.default },
-    _react2.default.createElement(_reactRouter.IndexRoute, { component: _ComponentTest2.default }),
+    _react2.default.createElement(_reactRouter.IndexRoute, { component: _Todo2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'hello', component: _Hello2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'componentTest', component: _Hello2.default })
   )
@@ -64908,7 +64971,32 @@ if(true) {
 }
 
 /***/ },
-/* 859 */,
+/* 859 */
+/***/ function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(205);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(374)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(true) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept(205, function() {
+			var newContent = __webpack_require__(205);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ },
 /* 860 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -65546,48 +65634,6 @@ __webpack_require__(377);
 __webpack_require__(376);
 module.exports = __webpack_require__(375);
 
-
-/***/ },
-/* 870 */,
-/* 871 */,
-/* 872 */
-/***/ function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(287)();
-// imports
-
-
-// module
-exports.push([module.i, ".sub-button {\n  width: 100px;\n  height: 100px;\n  background-color: red;\n  font-size: 16px;\n  text-align: center;\n  border-radius: 15px; }\n  .sub-button P {\n    color: red; }\n  .sub-button #p {\n    color: green; }\n", ""]);
-
-// exports
-
-
-/***/ },
-/* 873 */
-/***/ function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(872);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// add the styles to the DOM
-var update = __webpack_require__(374)(content, {});
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(true) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept(872, function() {
-			var newContent = __webpack_require__(872);
-			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
 
 /***/ }
 /******/ ]);

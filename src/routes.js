@@ -3,7 +3,7 @@
 * @Date:   19-10-16
 * @Email:  huhaoran3@ucfgroup.com
 * @Last modified by:   aran.hu
-* @Last modified time: 24-10-16
+* @Last modified time: 26-10-16
 * @License: © 2016 NCF GROUP ALL RIGHTS RESERVED
 */
 
@@ -19,7 +19,7 @@ import ComponentTest from './app/containers/ComponentTest';
 export default (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={ComponentTest}/>
+      <IndexRoute component={Todo}/>
       <Route path="hello" component={Hello}/>
       <Route path="componentTest" component={Hello}/>
     </Route>
